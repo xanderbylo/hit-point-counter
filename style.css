@@ -1,9 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     min-height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 
 #wrapper {
@@ -13,9 +19,23 @@ body {
     align-items: center;
 }
 
+h1 {
+    margin: 0 0 30px 0;
+    font-size: 96px;
+}
+
+h2 {
+    width: 100%;
+    margin: 0 0 54px 0;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 256px;
+}
+
 #wrapper-btn {
     width: 100%;
     display: flex;
+    gap: 10px;
 }
 
 button {
