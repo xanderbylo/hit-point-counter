@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper-btn {
+    width: 100%;
+    display: flex;
+}
+
+button {
+    width: 100%;
+}
