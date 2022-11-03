@@ -35,11 +35,11 @@ h1 {
 
 h2 {
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 0 0 12px 0;
     border: 4px solid #c73032;
-    padding-top: 40px;
+    padding-top: 30px;
     text-align: center;
-    font-size: 256px;
+    font-size: 192px;
     font-family: 'Deutsch Gothic';
 }
 
@@ -52,8 +52,8 @@ h2 {
 button {
     touch-action: manipulation;
     width: 100%;
-    padding: 8px 0;
     border: 4px solid #c73032;
+    padding: 8px 0;
     font-size: 32px;
     font-weight: 900;
     font-family: 'Menlo', 'Lucida Console', 'Monaco', 'Consolas', monospace;
@@ -61,14 +61,17 @@ button {
     color: #c73032;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
     h1 {
         margin: 0 0 24px 0;
-        font-size: 72px;
+        font-size: 80px;
     }
    
     h2 {
-        font-size: 192px;
+        margin: 0 0 9px 0;
+        border: 3px solid #c73032;
+        padding-top: 25px;
+        font-size: 160px;
     }
 
     .wrapper-btn {
@@ -76,6 +79,30 @@ button {
     }
 
     button {
+        border: 3px solid #c73032;
         font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        margin: 0 0 16px 0;
+        font-size: 64px;
+    }
+   
+    h2 {
+        margin: 0 0 6px 0;
+        border: 2px solid #c73032;
+        padding-top: 20px;
+        font-size: 128px;
+    }
+
+    .wrapper-btn {
+        gap: 6px;
+    }
+
+    button {
+        border: 2px solid #c73032;
+        font-size: 16px;
     }
 }
