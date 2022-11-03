@@ -9,7 +9,7 @@ I wanted to redesign and repurpose the app so users are able to increment and de
 
 ## :computer: Live link
 
-[recipes](https://xanderbylo.github.io/hit-point-counter/)
+[Hit Point Counter](https://xanderbylo.github.io/hit-point-counter/)
 
 ## :floppy_disk: Technologies
 
